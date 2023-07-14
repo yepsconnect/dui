@@ -15,6 +15,14 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+export const Loading: Story = {
+  args: {
+    size: 'md',
+    type: 'spinner',
+    color: 'primary',
+  },
+};
+
 export const LoadingSpinner: Story = {
   render: () => ({
     components: { UILoading },
