@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/vue3';
 
-import UIBreadcrubs from './UIBreadcrubs.vue';
+import UIBreadcrumbs from './UIBreadcrumbs.vue';
 
 const meta = {
-  component: UIBreadcrubs,
+  component: UIBreadcrumbs,
   tags: ['autodocs'],
   argTypes: {
     textSize: { control: 'select', options: ['xs', 'sm','md','lg', 'xl'] },
@@ -15,7 +15,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Badge: Story = {
+export const Breadcrumbs: Story = {
   args: {
     items: [
       { label: 'Home', value: 'home' },
