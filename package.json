@@ -1,6 +1,6 @@
 {
   "name": "@yepsconnect/dui",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "none",
   "main": "./dist/dui.umd.js",
   "module": "./dist/dui.js",
