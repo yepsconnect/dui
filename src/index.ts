@@ -7,6 +7,7 @@ import UIBadge from "@/components/UIBadge.vue";
 import UIBreadcrumbs from "@/components/UIBreadcrumbs.vue";
 import UIButton from "@/components/UIButton.vue";
 import UIDrawer from "@/components/UIDrawer.vue";
+import UIInput from "@/components/UIInput.vue";
 import UILoading from "@/components/UILoading.vue";
 import UIMenu from "@/components/UIMenu.vue";
 import UINavbar from "@/components/UINavbar.vue";
@@ -18,6 +19,7 @@ export {
   UIBreadcrumbs,
   UIButton,
   UIDrawer,
+  UIInput,
   UILoading,
   UIMenu,
   UINavbar,
