@@ -16,6 +16,6 @@ export {
   UIBadge,
   UIBreadcrumbs,
   UIDrawer,
-  UILoading
+  UILoading,
   UIMenu,
 };
