@@ -17,9 +17,22 @@ export const Navbar: Story = {
     components: { UINavbar, UIButton },
     template: `
       <UINavbar>
-        <template #start>
-          <UIButton label="DUI" color="ghost" />
-        </template>
+      <div class="flex items-center justify-between w-full">
+          <div>
+          1
+        </div>
+        <div>
+          <a href="1">1</a>
+          <a href="1">1</a>
+          <a href="1">1</a>
+          <a href="1">1</a>
+          <a href="1">1</a>
+          <a href="1">1</a>
+          <a href="1">1</a>
+          <a href="1">1</a>
+          <a href="1">1</a>
+        </div>
+        </div>
       </UINavbar>
     `,
   }),
