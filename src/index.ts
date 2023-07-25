@@ -9,7 +9,7 @@ import UIButton from "@/components/UIButton.vue";
 import UIDrawer from "@/components/UIDrawer.vue";
 import UILoading from "@/components/UILoading.vue";
 import UIMenu from "@/components/UIMenu.vue";
-
+import UINavbar from "@/components/UINavbar.vue";
 
 export { 
   UIAlert,
@@ -20,4 +20,5 @@ export {
   UIDrawer,
   UILoading,
   UIMenu,
+  UINavbar,
 };
